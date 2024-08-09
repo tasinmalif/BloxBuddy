@@ -1,7 +1,7 @@
 {
-  "name": "CHANGE",
+  "name": "bloxbuddy",
   "version": "0.0.1",
-  "description": "CHANGE",
+  "description": "Your go-to bot for real-time Blox Fruits stock updates and detailed game info, all in one place!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,16 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tasinmalif/CHANGE.git"
+    "url": "git+https://github.com/tasinmalif/BloxBuddy.git"
   },
   "author": "Tasin M Alif",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/tasinmalif/CHANGE/issues"
+    "url": "https://github.com/tasinmalif/BloxBuddy/issues"
   },
-  "homepage": "https://github.com/tasinmalif/CHANGE#readme",
+  "homepage": "https://github.com/tasinmalif/BloxBuddy#readme",
   "devDependencies": {
     "@types/node": "^20.12.3",
+    "dotenv": "^16.4.5",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "discord.js": "^14.15.3",
+    "luxon": "^3.5.0"
   }
 }
